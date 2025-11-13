@@ -1,0 +1,33 @@
+.tircha-Div {
+  clip-path: polygon(100% 0, 100% 100%, 28% 100%, 0 0);
+  background-color: #daf4ff;
+  z-index: 3;
+  padding: 15px 15px 15px 100px !important;
+  color: black;
+}
+.clip-path-example {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  clip-path: circle(50% at 50% 50%);
+  overflow: visible; /* Make the overflow content visible */
+}
+
+@media screen and (max-width: 1200px) {
+  .tircha-Div {
+    clip-path: none;
+    background-color: #076e9a;
+    /* z-index: 3; */
+    padding: 15px 20px !important;
+    color: white;
+  }
+  .whiteon1200px {
+    color: white !important;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .textelementCenter {
+    text-align: center;
+  }
+}

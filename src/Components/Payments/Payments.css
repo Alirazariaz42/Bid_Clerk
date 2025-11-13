@@ -1,0 +1,26 @@
+.UploadBtnbutton {
+  width: 150px;
+  height: 60px;
+  border: 3px solid #028EC9;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 1.2em;
+  font-weight: 550;
+  font-family: "Montserrat", sans-serif;
+}
+
+.UploadBtnbutton:hover {
+  background: #028EC9
+  ;
+  color: white;
+  width: 250px;
+  font-size: 1.5em;
+}
+.BannerContainer{
+    border:  3px solid #028EC9;
+    /* width: 50%; */
+    border-radius: 15px;
+    padding: 30px 45px;
+}

@@ -1,0 +1,132 @@
+.OurProcess {
+  width: 100%;
+  min-height: 200px;
+  background-color: black;
+  border-radius: 20px;
+  position: relative;
+  z-index: -2;
+}
+.btnUpload {
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #008bc7;
+  min-width: 200px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 16px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btnUpload:hover {
+  opacity: 0.95;
+}
+
+.btnUpload .animation {
+  border-radius: 100%;
+  animation: ripple 0.6s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1),
+      0 0 0 60px rgba(255, 255, 255, 0.1);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1),
+      0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1),
+      0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
+.SliderContainer {
+  background-color: #076e9a;
+  /* display: flex; */
+  padding: 30px 20px;
+  border-radius: 20px;
+  color: white;
+}
+.GetAquote1 {
+  background-color: #076e9a;
+  /* display: flex; */
+  padding: 30px 20px;
+  border-radius: 20px;
+  color: white;
+  width: 97%;
+}
+.GetAquote2 {
+  background-color: #076e9a;
+  /* display: flex; */
+  padding: 30px 20px;
+  border-radius: 20px;
+  color: white;
+  width: 100%;
+}
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.slick-dots li button:before {
+  font-size: 21px !important;
+  line-height: 20px;
+  position: absolute;
+  top: -9px !important;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 1 !important;
+  color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #0077ff !important;
+}
+
+.SinglePricingContainer {
+  border: 6px solid #076e9a;
+  color: #4b4b4b;
+  border-radius: 20px;
+  min-height: 655px;
+  padding: 20px;
+}
+.MonthlyPricingContainer {
+  border: 6px solid #076e9a;
+
+  background-color: #076e9a;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+}
+.SinglePricingbtn1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 3px solid #000000a9;
+  background-color: #076e9a;
+  color: white;
+}
+.SinglePricingbtn2 {
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border: 3px solid #076e9a;
+  color: #076e9a;
+}

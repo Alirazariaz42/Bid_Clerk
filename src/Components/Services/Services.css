@@ -1,0 +1,164 @@
+.ServicesContainer {
+  width: 100%;
+  /* min-height: 1700px; */
+
+  /* border-radius: 20px; */
+  position: relative;
+  z-index: 1;
+}
+.CostEstimation {
+  background-image: url("../../Images/CostEstimationBG.png");
+  background-size: cover;
+  border-radius: 20px;
+
+  transition: 0.2s ease-in;
+  padding: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: start;
+}
+.CostEstimation:hover {
+  opacity: 1;
+  transition: 0.2s ease-out;
+  transform: scale(1.05);
+}
+
+.TakeOff {
+  background-image: url("../../Images/TakeOffBG.png");
+  background-size: cover;
+  border-radius: 20px;
+  transition: 0.2s ease-in;
+  padding: 30px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: end;
+}
+.TakeOff:hover {
+  opacity: 1;
+  transition: 0.2s ease-out;
+  transform: scale(1.05);
+}
+.CPMScheduling {
+  background-image: url("../../Images/CPMSCHEDULINGBG.png");
+  background-size: cover;
+  border-radius: 20px;
+  transition: 0.2s ease-in;
+  padding: 30px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: start;
+}
+.CPMScheduling:hover {
+  opacity: 1;
+  transition: 0.2s ease-out;
+  transform: scale(1.05);
+}
+.Planning {
+  background-image: url("../../Images/PLANNINGBG.png");
+  background-size: cover;
+  border-radius: 20px;
+  transition: 0.2s ease-in;
+  padding: 30px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: end;
+}
+.Planning:hover {
+  opacity: 1;
+  transition: 0.2s ease-out;
+  transform: scale(1.05);
+}
+.Description {
+  color: white;
+  width: 50%;
+  background-color: #02abc979;
+  padding: 20px;
+  border-radius: 10px;
+}
+Link {
+  text-decoration: none !important;
+}
+
+.btnshining {
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #00a7c9;
+  min-width: 200px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 15px 20px;
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btnshining:hover {
+  opacity: 0.95;
+}
+
+.btnshining .animation {
+  border-radius: 100%;
+  animation: ripple 0.6s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+      0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1),
+      0 0 0 60px rgba(255, 255, 255, 0.1);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1),
+      0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1),
+      0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .Description {
+    color: white;
+    width: 70%;
+    background-color: #02abc979;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .Description {
+    color: white;
+    width: 80%;
+    background-color: #02abc979;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Description {
+    color: white;
+    width: 100%;
+    background-color: #02abc979;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Description {
+    color: white;
+    width: 100%;
+    background-color: #02abc979;
+    padding: 20px;
+    border-radius: 10px;
+  }
+}

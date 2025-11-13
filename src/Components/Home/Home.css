@@ -1,0 +1,390 @@
+.HeroSection {
+  width: 100%;
+  height: 90vh;
+  /* background-color: #028ec9; */
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-image: url("../../Images/HeroSectionImg.png");
+  background-size: cover;
+  background-position: center;
+}
+.contentSection {
+  width: 60%;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.336);
+  color: white;
+}
+.contentSection h1 {
+  font-size: clamp(1.37rem, 0.866rem + 2.016vw, 2rem);
+}
+.paragrapg {
+  font-size: clamp(1.1rem, 0.1164rem + 0.3197vw, 1.2rem);
+}
+.paragrapg2 {
+  font-size: clamp(1.1rem, 0.1164rem + 0.3197vw, 1.2rem);
+  color: white;
+}
+.CommonBtns {
+  padding: 14px 40px;
+  background-color: #02abc9;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+}
+
+.CommonBtns2 {
+  padding: 12px 50px;
+  background-color: #02abc91a;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 2px;
+  margin-left: 50px;
+}
+.ServicesCardContainer {
+  margin-top: 15px;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+}
+.ServicesCardContainer1 {
+  background-image: url("../../Images/CostEstimation.png");
+  margin-top: 15px;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  transition: 0.5s linear;
+  background-color: #02abc9c4;
+}
+.ServicesCardContainer2 {
+  background-image: url("../../Images/TakeOff.png");
+  margin-top: 15px;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  transition: 0.5s linear;
+  background-color: #02abc9c4;
+}
+.ServicesCardContainer3 {
+  background-image: url("../../Images/CPMScheduling.png");
+  margin-top: 15px;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-color: #02abc9c4;
+  transition: 0.5s linear;
+}
+.ServicesCardContainer4 {
+  background-image: url("../../Images/Planning.png");
+  margin-top: 15px;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  transition: 0.5s linear;
+  background-color: #02abc9c4;
+}
+.ServicesCardContainer1:hover {
+  background-image: url("../../Images/hoverCostEstimationImg.png");
+  margin-top: 15px;
+  width: 100%;
+  height: 200px;
+  background-color: #02abc9c4;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  transition: 0.5s linear;
+}
+.ServicesCardContainer1:hover .costestimationCard {
+  bottom: 20px;
+  transition: 0.5s ease-out;
+}
+.ServicesCardContainer1:hover .costestimationCard p {
+  opacity: 1;
+  transition: 0.5s ease-out;
+  margin-bottom: 15px;
+}
+.ServicesCardContainer1:hover .costestimationCard .h4 {
+  background-image: url("../../Images/hoverCostEstimationImg.png");
+  background-position: center center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.ServicesCardContainer2:hover {
+  background-image: url("../../Images/HoverTakeoffBG.png");
+  margin-top: 15px;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-color: #02abc9c4;
+  background-position: center center;
+  background-size: cover;
+  transition: 0.5s linear;
+}
+.ServicesCardContainer2:hover .costestimationCard {
+  bottom: 20px;
+  transition: 0.5s ease-out;
+}
+.ServicesCardContainer2:hover .costestimationCard p {
+  opacity: 1;
+  transition: 0.5s ease-out;
+  margin-bottom: 15px;
+}
+.ServicesCardContainer2:hover .costestimationCard .h4 {
+  background-image: url("../../Images/hoverCostEstimationImg.png");
+  background-position: center center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.ServicesCardContainer3:hover {
+  background-image: url("../../Images/HoverCPMBG.png");
+  margin-top: 15px;
+  width: 100%;
+  height: 200px;
+  background-color: #02abc9c4;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  transition: 0.5s linear;
+}
+.ServicesCardContainer3:hover .costestimationCard {
+  bottom: 20px;
+  transition: 0.5s ease-out;
+}
+.ServicesCardContainer3:hover .costestimationCard p {
+  opacity: 1;
+  transition: 0.5s ease-out;
+  margin-bottom: 15px;
+}
+.ServicesCardContainer3:hover .costestimationCard .h4 {
+  background-image: url("../../Images/hoverCostEstimationImg.png");
+  background-position: center center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.ServicesCardContainer4:hover {
+  background-image: url("../../Images/HoverPlanningBG.png");
+  margin-top: 15px;
+  width: 100%;
+  background-color: #02abc9c4;
+  height: 200px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  transition: 0.5s linear;
+}
+.ServicesCardContainer4:hover .costestimationCard {
+  bottom: 20px;
+  transition: 0.5s ease-out;
+}
+.ServicesCardContainer4:hover .costestimationCard p {
+  opacity: 1;
+  transition: 0.5s ease-out;
+  margin-bottom: 15px;
+}
+.ServicesCardContainer4:hover .costestimationCard .h4 {
+  background-image: url("../../Images/hoverCostEstimationImg.png");
+  background-position: center center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.NYCContainer {
+  width: 50%;
+  padding: 20px 40px;
+}
+.costestimationCard {
+  position: absolute;
+  width: 100%;
+  transition: 0.5s ease-out;
+  text-align: center;
+  bottom: -30px;
+  height: 100px;
+}
+.costestimationCard .h4 {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 3px 0px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: white;
+  background-image: url("../../Images/CostEstimation.png");
+  background-position: center center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.costestimationCard p {
+  color: white;
+  transition: 0.5s ease-out;
+  opacity: 0;
+  padding: 0px 20px;
+  margin-bottom: 0px;
+}
+.ServiceslastCardContainer {
+  background-image: url("../../Images/Serviceslastcard.png");
+  margin-top: 15px;
+  width: 100%;
+  position: relative;
+  background-position: center center;
+  color: white;
+  background-size: cover;
+  height: 200px;
+  overflow: auto;
+}
+.accordion-button {
+  font-size: 18px !important;
+  padding: 20px 0px !important;
+}
+.width50 {
+  width: 50%;
+}
+.SERVICESNYCContainer {
+  background-image: url("../../Images/SERVICESNYCContainer.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.bidDiscountContainer {
+  padding: 20px 40px;
+  color: white;
+  max-width: 450px;
+  background-image: url("../../Images/BGHOME.png");
+}
+
+@media screen and (min-width: 1500px) {
+  .SERVICESNYCContainer {
+    background-image: url("../../Images/SERVICESNYCContainer.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    padding: 60px 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contentSection {
+    width: 80%;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.336);
+    color: white;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .NYCContainer {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.452);
+  }
+}
+@media screen and (max-width: 800px) {
+  .NYCContainer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.644);
+  }
+
+  .offcanvas {
+    width: 50vw !important;
+  }
+
+  .contentSection {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.336);
+    color: white;
+  }
+  .HeroSection {
+    width: 100%;
+    height: 90vh;
+    /* background-color: #028ec9; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-image: url("../../Images/HeroSectionImg.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .CommonBtns {
+    padding: 10px 20px;
+    background-color: #02abc9;
+    color: white;
+    font-size: 21px;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .CommonBtns2 {
+    padding: 8px 30px;
+    background-color: #02abc900;
+    color: white;
+    font-size: 21px;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin-left: 10px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .contentSection {
+      width: 100%;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.336);
+      color: white;
+    }
+    .offcanvas {
+      width: 80vw !important;
+    }
+
+    .HeroSection {
+      width: 100%;
+      height: 90vh;
+      /* background-color: #028ec9; */
+      display: flex;
+      align-items: center;
+      padding: 0px;
+      background-image: url("../../Images/HeroSectionImg.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .CommonBtns {
+      padding: 7px 15px;
+      background-color: #02abc9;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 2px;
+    }
+
+    .CommonBtns2 {
+      padding: 6px 15px;
+      background-color: #02abc900;
+      color: white;
+      font-size: 18px;
+      border: 1px solid white;
+      border-radius: 2px;
+      margin-left: 10px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .offcanvas {
+      width: 100vw !important;
+    }
+  }
+}

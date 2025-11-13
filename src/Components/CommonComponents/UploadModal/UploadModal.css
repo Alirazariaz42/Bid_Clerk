@@ -1,0 +1,90 @@
+.ModalContainer {
+  background-color: rgba(1, 22, 26, 0.678);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 3;
+}
+.ModalUpload {
+  /* width: 50vw; */
+  display: flex;
+  align-items: center;
+  /* height: 70vh; */
+  background-color: white;
+  color: #028ec9;
+  overflow: auto;
+  justify-content: center;
+  border-radius: 5px;
+  position: relative;
+  padding: 50px 30px;
+  background-image: url("../../../Images/UploadmODALbg.png");
+  background-size: cover;
+}
+.ModalUpload div {
+}
+.ModalUpload .btn-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.ModalUpload .row {
+  min-height: 200px;
+  margin-top: 20px;
+}
+.ModalUpload input {
+  width: 90%;
+  border: 2px solid #028ec9;
+}
+.ModalUpload textarea {
+  width: 90%;
+  border: 2px solid #028ec9;
+}
+.ModalUpload input[type="submit"] {
+  width: auto;
+  padding: 0px 30px;
+  color: white;
+  background-color: #028ec9;
+}
+@media screen and (max-width: 1000px) {
+  .ModalUpload {
+    width: 80vw;
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ModalUpload {
+    padding: 20px;
+  }
+  .ModalUpload input {
+    width: 100%;
+    border: 2px solid #028ec9;
+  }
+  .ModalUpload textarea {
+    width: 100%;
+    border: 2px solid #028ec9;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ModalUpload {
+    width: 100vh;
+    height: 100vw;
+    padding: 05px;
+  }
+  .ModalUpload h3 {
+    font-size: 20px;
+  }
+  .ModalUpload .btn-close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: #028ec9;
+    color: white;
+  }
+  .smallScreen {
+    display: none;
+  }
+}

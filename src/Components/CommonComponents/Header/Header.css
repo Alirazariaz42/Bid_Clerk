@@ -1,0 +1,352 @@
+.Navbar-Custom {
+  background-color: rgb(255, 255, 255) !important;
+  transition: 0.3s;
+  padding: 0px 15px !important;
+  box-shadow: 0px 2px 6px 2px rgb(0, 0, 0);
+  position: absolute !important;
+  width: 100%;
+  /* position: sticky; */
+  /* top: 0px !important; */
+}
+/* Total width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* Background of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Draggable part of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Hover effect for the draggable part */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.Navbar-Custom:hover {
+  background-color: rgb(255, 255, 255) !important;
+  transition: 0.3s;
+}
+
+.hover-dropdown:hover .dropdown-menu {
+  display: block !important;
+}
+
+.dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu .dropdown-menu {
+  top: 0;
+  left: 100% !important;
+  margin-top: -1px;
+}
+
+.nav-link {
+  font-size: 19px !important;
+  font-weight: 500 !important;
+  text-decoration: none;
+  color: rgb(36, 36, 36) !important;
+  padding: 0px 10px !important;
+}
+.nav-link a {
+  text-decoration: none;
+  color: black;
+}
+.nav-link.active a {
+  color: #028ec9;
+  transition: 0.2s;
+  /* font-weight: 600; */
+}
+.GetEstimation-Btn {
+  animation: blink 1.4s linear infinite;
+  background-color: #028ec9 !important
+  ;
+}
+@keyframes blink {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #028ec9;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+}
+.Off40 {
+  margin-left: -150px;
+}
+.ServicesDropDownContainer:hover .ServicesDropDown {
+  max-height: 200px;
+  transition: 0.3s linear;
+  box-shadow: 2px 2px 15px 4px rgb(148, 148, 148),
+    /* 2px 2px 15px 4px rgba(156, 156, 156, 0.486); */;
+  border: 1px solid rgb(175, 175, 175);
+  background-color: white;
+}
+.ServicesDropDown {
+  max-height: 0px;
+  overflow: auto;
+  position: absolute;
+  background-color: white;
+  left: -70px;
+  width: 300px;
+  transition: 0.5s linear;
+  transition-delay: 0.3s;
+  top: 30px;
+  border-radius: 0px;
+}
+.ServicesDropDown ul li a {
+  list-style-type: none;
+  display: inline-block;
+  width: 100%;
+  margin: 0px;
+  padding: 0px 5px;
+  color: black !important;
+  border-radius: 0px;
+  font-size: 16px;
+  font-weight: 450 !important;
+}
+.ServicesDropDown ul li a:hover {
+  background-color: #028ec9;
+  color: white !important;
+  transition: 0.2s linear;
+}
+
+.ServicesDropDown ul li:hover {
+  color: white;
+}
+.ServicesSubDropDownContainer:hover .ServicesSubDropDown {
+  max-height: 65px;
+  opacity: 1;
+  transition: 0.3s linear;
+  transition-delay: 0.3s;
+  padding: 05px 10px;
+}
+
+.ServicesSubDropDown {
+  max-height: 0px;
+  transition: 0.3s ease;
+  background-color: #000000;
+  color: white;
+  opacity: 0;
+  border-radius: 0px;
+  padding: 0px 10px;
+  transition-delay: 2s;
+}
+.ServicesDropDown .ServicesSubDropDown li a {
+  color: white !important;
+}
+.TradeDropDwonContainer {
+  position: relative;
+}
+.TradeDropDwonContainer:hover .TradeDropDwon {
+  max-height: 80vh;
+  transition: 0.3s linear;
+  box-shadow: 2px 2px 15px 4px rgb(148, 148, 148),
+    /* 2px 2px 15px 4px rgba(156, 156, 156, 0.486); */;
+  border: 1px solid rgb(175, 175, 175);
+}
+.TradeDropDwon {
+  max-height: 0px;
+  overflow: auto;
+  position: absolute;
+  top: 30px;
+  left: -40px;
+  background-color: white;
+
+  width: 300px;
+  transition: 0.4s linear;
+  transition-delay: 0.5s;
+  border-radius: 0px;
+}
+.TradeDropDwon ul li a {
+  width: 100% !important;
+  display: inline-block;
+  color: black !important;
+  padding: 0px 5px;
+  font-weight: 450 !important;
+  margin-top: 2px;
+}
+.TradesSubDropDown2 .TradesSubDropDown li a {
+  color: white !important;
+}
+.TradeDropDwon ul li {
+  list-style-type: none;
+  text-transform: capitalize;
+  margin: 0px;
+  padding: 0px 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.TradeDropDwon ul li a:hover {
+  background-color: #028ec9;
+  color: white !important;
+  transition: 0s linear;
+  border-radius: 0px;
+  transition: 0.2s linear;
+}
+
+.TradesSubDropDown li a {
+  color: white !important;
+}
+
+.TradesSubDropDown2:hover .TradesSubDropDown {
+  max-height: 120px;
+  padding: 03px 5px !important;
+  overflow: auto;
+  transition: 0.2s linear;
+  transition-delay: 0.2s;
+  opacity: 1;
+  color: white !important;
+}
+
+.TradesSubDropDown {
+  opacity: 1;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  background-color: #000000 !important;
+  color: white;
+  border-radius: 0px;
+  transition-delay: 6s;
+}
+.TradesSubDropDown ul li a {
+  color: white;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.LogoSize {
+  width: 200px;
+  height: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-link {
+    font-size: 18px !important;
+    text-decoration: none;
+    color: black !important;
+    padding: 0px 10px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .Off40 {
+    margin-left: 0px;
+  }
+  .nav-link {
+    font-size: 16px !important;
+    text-decoration: none;
+    text-align: center;
+    color: black !important;
+    padding: 0px 8px !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  .Navbar-Custom {
+    background-color: rgb(255, 255, 255) !important;
+    transition: 0.3s;
+    padding: 0px 15px !important;
+    box-shadow: 0px 2px 6px 2px rgb(0, 0, 0);
+    position: absolute !important;
+    width: 100%;
+    /* position: sticky; */
+    /* top: 0px !important; */
+  }
+  .ServicesDropDown {
+    display: none;
+  }
+  .nav-link {
+    font-size: 18px !important;
+    text-decoration: none;
+    text-align: center;
+    color: black !important;
+    padding: 0px 8px !important;
+  }
+
+  .TradeDropDwon {
+    max-height: 0px;
+    overflow: auto;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 300px;
+    transition: 0.4s linear;
+    transition-delay: 0.5s;
+    border-radius: 0px;
+    z-index: 3;
+  }
+  .TradeDropDwon {
+    display: none;
+  }
+
+  .ServicesDropDown {
+    max-height: 0px;
+    overflow: auto;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    transition: 0.5s linear;
+    transition-delay: 0.3s;
+    top: 30px;
+    z-index: 3;
+    border-radius: 0px;
+  }
+
+  .TradeDropDwonContainer:hover .TradeDropDwon {
+    max-height: 90vh;
+    transition: 0.3s linear;
+    box-shadow: 2px 2px 15px 4px rgb(148, 148, 148),
+      /* 2px 2px 15px 4px rgba(156, 156, 156, 0.486); */;
+    border: 1px solid rgb(175, 175, 175);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header {
+    width: 100%;
+    height: auto;
+    background-color: #028ec9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 05px;
+    align-items: center;
+  }
+  .header div {
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-brand img {
+    width: 150px;
+    height: 40px;
+  }
+}

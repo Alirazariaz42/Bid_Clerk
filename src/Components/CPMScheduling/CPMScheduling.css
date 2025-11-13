@@ -1,0 +1,21 @@
+.WBSDiv {
+  background-color: #028ec9;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+.WBS-Container {
+  padding: 20px 70px;
+}
+@media screen and (max-width: 800px) {
+  .WBS-Container {
+    padding: 20px 0px;
+  }
+
+  .WBSDiv {
+    background-color: #028ec9;
+    color: white;
+    padding: 1 0px;
+    border-radius: 10px;
+  }
+}
