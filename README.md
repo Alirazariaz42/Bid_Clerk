@@ -1,3 +1,3 @@
 [Live Demo](https://bidclerkestimating.com/)
 
-![Screenshot] <img width="1921" height="6706" alt="BidSlerk" src="https://github.com/user-attachments/assets/b1689407-641b-4b46-b3eb-3085f3ecea3b" />
+<img width="1921" height="3239" alt="BidSlerk" src="https://github.com/user-attachments/assets/4b153c74-04e4-4b04-af1c-455abf7073f0" />
