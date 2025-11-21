@@ -1,3 +1,3 @@
 [Live Demo](https://bidclerkestimating.com/)
 
-![Uploading screencapture-bidclerkestimating-2025-11-21-10_45_30.png…]()
+![Screenshot] <img width="1921" height="6706" alt="BidSlerk" src="https://github.com/user-attachments/assets/b1689407-641b-4b46-b3eb-3085f3ecea3b" />
